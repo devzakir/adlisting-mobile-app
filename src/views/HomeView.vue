@@ -108,22 +108,13 @@
           </div>
           <div class="listing-block" style="margin-top: 20px">
             <div class="block-header">
-              <h3 style="margin-bottom: 20px">Listing</h3>
+              <h3 style="margin-bottom: 20px">Popular Ads</h3>
             </div>
             <div class="listing-wrapper">
-              <ion-card>
-                <img src="../assets/images/nature.jpeg" alt="" />
-                <ion-card-title>
-                  <ion-item>
-                    Ion-item in a card, icon left, button right
-                  </ion-item>
-                </ion-card-title>
-
-                <ion-card-content>
-                  This is content, without any paragraph or header tags, within
-                  an ion-card-content element.
-                </ion-card-content>
-              </ion-card>
+              <ListingItem />
+              <ListingItem />
+              <ListingItem />
+              <ListingItem />
             </div>
           </div>
         </div>
@@ -142,11 +133,6 @@ import {
   IonPage,
   IonHeader,
   IonButton,
-  IonCard,
-  IonCardContent,
-  IonCardTitle,
-  IonLabel,
-  IonCardHeader,
   IonContent,
   IonCardSubtitle,
   IonThumbnail,
@@ -159,6 +145,7 @@ import {
   albumsOutline,
   notificationsOutline,
 } from "ionicons/icons";
+import ListingItem from "../components/ListingItem.vue";
 </script>
 
 <style lang="scss">
@@ -212,6 +199,14 @@ ion-item {
       color: var(--ion-color-medium);
       margin-bottom: 0;
     }
+  }
+}
+.listing-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  ion-card {
+    width: calc(50% - 10px);
   }
 }
 </style>
