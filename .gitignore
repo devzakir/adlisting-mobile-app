@@ -26,3 +26,8 @@ coverage
 *.njsproj
 *.sln
 *.sw?
+
+
+# Lock 
+yarn.Lock
+package-lock.json

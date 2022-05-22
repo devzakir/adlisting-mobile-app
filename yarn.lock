@@ -36,10 +36,44 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz#b520529ec21d8e5945a1851dfd1c32e94e39ff45"
   integrity sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==
 
+"@ionic/core@^6.1.5":
+  version "6.1.5"
+  resolved "https://registry.yarnpkg.com/@ionic/core/-/core-6.1.5.tgz#e84c972dcd47cfbc3b7722af8d32a4bca1f74cac"
+  integrity sha512-YEpFheFDGV7lifbYNqctcPXRPqEOKiDy5KgSPriFzrrPUbwrv/tnXHZq7hFVPCMUYFBS9QJts4r5FOYTqAfvtw==
+  dependencies:
+    "@stencil/core" "^2.14.2"
+    ionicons "^6.0.0"
+    tslib "^2.1.0"
+
+"@ionic/vue-router@^6.1.5":
+  version "6.1.5"
+  resolved "https://registry.yarnpkg.com/@ionic/vue-router/-/vue-router-6.1.5.tgz#075234dec7e1f8d572b706630d5c6a7ce8231d88"
+  integrity sha512-CBC3g5vyNMLz+FKCDFVNLlpC1HtX2sL64KhqIBWqufOHkg+pTRrFBZbI5xUWCBmEQlc2aKJGqLZvspebdvt8ZQ==
+  dependencies:
+    "@ionic/vue" "^6.1.5"
+
+"@ionic/vue@^6.1.5":
+  version "6.1.5"
+  resolved "https://registry.yarnpkg.com/@ionic/vue/-/vue-6.1.5.tgz#48de5fbeab640986aeda39f7b77091c074f92646"
+  integrity sha512-vMoDr4k5Jvo2Ne5DERaTnoOJObYw/tBGYXJK2hXAdCLDw+h4q0ZLVF2E5Dxs7BYU0hMCRBWmG8rRQY3bSeSr6A==
+  dependencies:
+    "@ionic/core" "^6.1.5"
+    ionicons "^6.0.0"
+
 "@rushstack/eslint-patch@^1.1.0":
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.1.3.tgz#6801033be7ff87a6b7cadaf5b337c9f366a3c4b0"
   integrity sha512-WiBSI6JBIhC6LRIsB2Kwh8DsGTlbBU+mLRxJmAe3LjHTdkDpwIbEOZgoXBbZilk/vlfjK8i6nKRAvIRn1XaIMw==
+
+"@stencil/core@^2.14.2":
+  version "2.15.2"
+  resolved "https://registry.yarnpkg.com/@stencil/core/-/core-2.15.2.tgz#73a18050714a9edc488e6a2ea3380f5a91a04690"
+  integrity sha512-D6dv2KAXlWt9mjC28q0s6anghQgXRn0k93suOf+4pqsv1Uq19zNJXpYL68N5GxMSiNZyMPTU4Tt2NCbut7DVGg==
+
+"@stencil/core@~2.12.0":
+  version "2.12.1"
+  resolved "https://registry.yarnpkg.com/@stencil/core/-/core-2.12.1.tgz#92364d3e57337b8d36dd9b70cfbed2833929f22d"
+  integrity sha512-u24TZ+FEvjnZt5ZgIkLjLpUNsO6Ml3mUZqwmqk81w6RWWz75hgB5p4RFI5rvuErFeh2xvMIGo+pNdG24XUBz1A==
 
 "@vitejs/plugin-vue@^2.3.1":
   version "2.3.3"
@@ -660,6 +694,13 @@ inherits@2:
   resolved "https://registry.yarnpkg.com/inherits/-/inherits-2.0.4.tgz#0fa2c64f932917c3433a0ded55363aae37416b7c"
   integrity sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==
 
+ionicons@^6.0.0:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/ionicons/-/ionicons-6.0.1.tgz#e7dc8c9d6d6cff33f3c64c095b5df645fbedd917"
+  integrity sha512-xQekOJsxH82O7oB+3F60zeRggCdND9pJ/k0E6IJDVUGGlCj5mlyFqNgxUimytKgstPGv3S+3EmCxjefvtGgWUg==
+  dependencies:
+    "@stencil/core" "~2.12.0"
+
 is-core-module@^2.8.1:
   version "2.9.0"
   resolved "https://registry.yarnpkg.com/is-core-module/-/is-core-module-2.9.0.tgz#e1c34429cd51c6dd9e09e0799e396e27b19a9c69"
@@ -950,6 +991,11 @@ text-table@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/text-table/-/text-table-0.2.0.tgz#7f5ee823ae805207c00af2df4a84ec3fcfa570b4"
   integrity sha1-f17oI66AUgfACvLfSoTsP8+lcLQ=
+
+tslib@^2.1.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.4.0.tgz#7cecaa7f073ce680a05847aa77be941098f36dc3"
+  integrity sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==
 
 type-check@^0.4.0, type-check@~0.4.0:
   version "0.4.0"
